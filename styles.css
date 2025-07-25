@@ -14,6 +14,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.navbar-brand h1 {
+  font-size: 20px;
+}
 main {
   flex: 1;
 }
@@ -101,10 +104,27 @@ footer ul {
   background-color: rgb(176, 176, 176);
   padding: 10;
   text-transform: lowercase;
-  font-size: small;
+  font-size: medium;
+  gap: 5px;
 }
-
+/*LOCALES*/
+.grilla-contenedor-locales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin: 30px;
+}
+.local img {
+  width: 500px;
+  height: 500px;
+}
+.local h3 {
+  font-size: medium;
+  color: rgb(111, 103, 93);
+}
 /* PRODUCTO */
+
 .inicio {
   text-align: start;
   padding: 10px;
@@ -117,10 +137,12 @@ footer ul {
 .contenedor-productos {
   width: 100%;
   min-height: 300px;
-  background-color: rgb(213, 203, 167);
+  background-color: rgb(244, 243, 241);
   display: flex;
   padding: 10px 10px 30px 10px;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 .producto {
   display: flex;
@@ -140,6 +162,8 @@ footer ul {
 .producto img {
   width: 200px;
   height: 200px;
+  border-radius: 5px;
+  border: #b30505;
 }
 
 main div h2 {
@@ -149,22 +173,19 @@ main div h2 {
 }
 
 /* CONTACTO */
-#formulario {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 40px;
-}
 
-form {
+.formulario {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
 }
-label {
-  font-size: 20px;
-  text-transform: capitalize;
+.form-group {
+  width: 600px;
 }
+
 /*PREGUNTAS FRECUENTES*/
 .contenedor-preguntas {
   display: flex;
