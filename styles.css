@@ -3,6 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* PRUEBA OCUPE TODA LA PAG*/
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+/* FIN PRUEBA OCUPE TODA LA PAG*/
 body {
   background-color: rgb(255, 251, 251);
 }
@@ -90,7 +105,7 @@ footer ul {
 }
 
 /* PRODUCTO */
-#inicio {
+.inicio {
   text-align: start;
   padding: 10px;
   font-size: 14px;
@@ -132,6 +147,46 @@ main div h2 {
   text-transform: uppercase;
   font-weight: 400;
 }
+
+/* CONTACTO */
+#formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+label {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+/*PREGUNTAS FRECUENTES*/
+.contenedor-preguntas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#preg {
+  text-align: center;
+  text-transform: capitalize;
+}
+.contenedor-preguntas div {
+  margin: 20px;
+  background-color: #f1f1f1;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .producto img {
     width: 100px;
