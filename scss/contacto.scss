@@ -11,7 +11,18 @@
   align-items: center;
   gap: 10px;
   margin: 20px;
+
   .form-group {
     width: 600px;
   }
+
+  @media (max-width: 600px) {
+    .form-group {
+      width: 90%; // mejor que 50% para mobile
+    }
+  }
+}
+.boton-container {
+  display: flex;
+  justify-content: center;
 }

@@ -15,5 +15,15 @@
 .formulario .form-group {
   width: 600px;
 }
+@media (max-width: 600px) {
+  .formulario .form-group {
+    width: 90%;
+  }
+}
+
+.boton-container {
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=contacto.css.map */
