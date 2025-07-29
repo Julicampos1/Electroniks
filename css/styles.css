@@ -43,6 +43,7 @@
   background-size: cover;
   background-position: center;
   display: flex;
+  transition: transform 1s;
 }
 .grilla-productos .equipos:hover {
   transform: scale(1.05);
@@ -61,6 +62,7 @@
   background-size: cover;
   background-position: center;
   display: flex;
+  transition: transform 1s;
 }
 .grilla-productos .cargadores:hover {
   transform: scale(1.05);
@@ -79,6 +81,7 @@
   background-size: cover;
   background-position: center;
   display: flex;
+  transition: transform 1s;
 }
 .grilla-productos .fundas:hover {
   transform: scale(1.05);

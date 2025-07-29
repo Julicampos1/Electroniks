@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  animation: iluminar 2s linear;
   .producto {
     display: flex;
     padding: 20px;
@@ -22,10 +23,7 @@
     text-transform: capitalize;
     font-size: medium;
     font-family: "Times New Roman", Times, serif;
-    &:hover {
-      transform: scale(1.05);
-      cursor: pointer;
-    }
+
     img {
       width: 200px;
       height: 200px;
@@ -36,5 +34,16 @@
       width: 25px;
       height: 25px;
     }
+  }
+}
+@keyframes iluminar {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: rgb(91, 91, 91);
+  }
+  100% {
+    background-color: rgb(234, 234, 234);
   }
 }
