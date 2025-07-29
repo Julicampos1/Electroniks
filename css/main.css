@@ -1,0 +1,79 @@
+/* PRUEBA OCUPE TODA LA PAG*/
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(255, 251, 251);
+}
+html nav,
+body nav {
+  text-transform: capitalize;
+  background-color: rgb(176, 176, 176);
+  padding: 5 5 5 0;
+}
+html nav .navbar-brand h1,
+body nav .navbar-brand h1 {
+  font-size: 20px;
+}
+html nav div a,
+body nav div a {
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+  margin: 5 10 5 0;
+}
+html main,
+body main {
+  flex: 1;
+}
+html main .inicio,
+body main .inicio {
+  text-align: start;
+  padding: 10px;
+  font-size: 14px;
+  text-transform: lowercase;
+  font-style: oblique;
+  font-weight: 100;
+}
+html main .inicio div h2,
+body main .inicio div h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+html footer ul,
+body footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(176, 176, 176);
+  padding: 10;
+  text-transform: lowercase;
+  font-size: medium;
+  gap: 5px;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .producto img {
+    width: 100px;
+    height: 100px;
+  }
+  .producto button img {
+    width: 17px;
+    height: 17px;
+  }
+  footer ul {
+    font-size: 15px;
+  }
+  #inicio {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
