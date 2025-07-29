@@ -37,11 +37,12 @@
     align-items: start;
     justify-content: left;
     font-size: 15px;
+    text-decoration: none;
   }
   .cargadores {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-    background-image: url("../Imagenes/imac.jpg");
+    background-image: url("../Imagenes/cargador.jpeg");
     background-size: cover;
     background-position: center;
     color: rgb(0, 0, 0);

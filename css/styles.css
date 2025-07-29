@@ -40,6 +40,8 @@
   align-items: start;
   justify-content: left;
   font-size: 15px;
+  text-align: center;
+  text-decoration: none;
 }
 .grilla-productos .cargadores {
   grid-row: 1/2;
