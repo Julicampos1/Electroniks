@@ -22,3 +22,12 @@
     text-align: center;
   }
 }
+
+@media (max-width: 600px) {
+  .local {
+    img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}

@@ -25,6 +25,10 @@
   font-size: medium;
   font-family: "Times New Roman", Times, serif;
 }
+.contenedor-productos .producto:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
 .contenedor-productos .producto img {
   width: 200px;
   height: 200px;
